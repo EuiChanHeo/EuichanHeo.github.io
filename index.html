@@ -10,159 +10,115 @@
     <link rel="shortcut icon" href="images/favicon/favicon_ec_dark.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-    <!-- YouTube click-to-play 최소 스타일 -->
     <style>
-      .yt-wrap { position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; }
-      .yt-wrap > * { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
-      .yt-poster { display: block; }
-      .yt-play {
-        position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
-        padding: 0.45em 0.9em; font-size: 1.05em; border: none; border-radius: 10px;
-        background: rgba(0,0,0,0.58); color: #fff; cursor: pointer;
+      /* GIF 섹션용 최소 스타일 */
+      .gif-wrap {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 4px;
       }
-      .yt-play:focus { outline: 2px solid #fff; }
+      .gif-wrap img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        display: block;
+      }
     </style>
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Euichan Heo
-                </p>
-                <p>
-                  I'm a master's student in <a href="https://pnu-camel.oopy.io/">CAMEL</a> (<strong>C</strong>omputer <strong>A</strong>nd <strong>M</strong>achine <strong>E</strong>ngaged <strong>L</strong>ab.) at <a href="https://ee.pusan.ac.kr/ee/index.do">Pusan National University</a> (Busan, South Korea).
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://velog.io/@hec1013/posts">Velog</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/EuiChanHeo">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/EuichanHeo.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/EuichanHeo.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+    <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+      <tr><td style="padding:0;">
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I'm interested in robotics, <span class="highlight">imitation learning</span>, and generative AI.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+        <!-- Header -->
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+          <tr>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p class="name" style="text-align: center;">Euichan Heo</p>
+              <p>
+                I'm a master's student in 
+                <a href="https://pnu-camel.oopy.io/">CAMEL</a>
+                (<strong>C</strong>omputer <strong>A</strong>nd <strong>M</strong>achine <strong>E</strong>ngaged <strong>L</strong>ab.)
+                at <a href="https://ee.pusan.ac.kr/ee/index.do">Pusan National University</a> (Busan, South Korea).
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;/&nbsp;
+                <a href="https://velog.io/@hec1013/posts">Velog</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;/&nbsp;
+                <a href="https://github.com/EuiChanHeo">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:37%;max-width:37%">
+              <a href="images/EuichanHeo.jpg">
+                <img style="width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/EuichanHeo.jpg">
+              </a>
+            </td>
+          </tr>
+        </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='ever_image'>
-                    <img src='images/Harness4.png' width="100%" alt="">
-                  </div>
-                  <img src='images/Harness4.png' width="100%" alt="">
-                </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890333">
-                  <span class="papertitle">Development of Strain Gauge-Based and FSR Sensor-Based Harness System for Interaction between Quadruped Robot and the Blind</span>
-                </a>
-                <br>
-                Jiyoon Kim,
-                Dongju Kim,
-                Dongyoung Lee,
-                <strong>Euichan Heo</strong>
-                <br>
-                <em>IEIE Conference</em>, 2024
-                <br>
-                <p></p>
-                <p>
-                  Implementation of harness system using strain gauge-based and FSR (Force Sensitive Resister) sensor-based handles for interaction between quadruped robot and the blind.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+        <!-- Research -->
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+          <tr>
+            <td style="padding:16px;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I'm interested in robotics, <span class="highlight">imitation learning</span>, and generative AI.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
 
-          <!-- Demonstration 헤더 -->
-          <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td><h2>Demonstration</h2></td>
-            </tr>
-          </tbody></table>
+        <!-- Publication -->
+        <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;"><tbody>
+          <tr>
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <img src='images/Harness4.png' width="100%" alt="">
+            </td>
+            <td style="padding:8px;width:80%;vertical-align:middle">
+              <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890333">
+                <span class="papertitle">Development of Strain Gauge-Based and FSR Sensor-Based Harness System for Interaction between Quadruped Robot and the Blind</span>
+              </a>
+              <br>
+              Jiyoon Kim, Dongju Kim, Dongyoung Lee, <strong>Euichan Heo</strong>
+              <br>
+              <em>IEIE Conference</em>, 2024
+              <p></p>
+              <p>
+                Implementation of harness system using strain gauge-based and FSR (Force Sensitive Resister) sensor-based handles for interaction between quadruped robot and the blind.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
 
-          <!-- Demonstration 콘텐츠 (유튜브 클릭 재생) -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <div class="yt-wrap yt-click" data-ytid="0-sD8Q2Tb6o" aria-label="Play video">
-                  <!-- 포스터: 직접 준비한 이미지가 없으면 아래 유튜브 썸네일 URL을 써도 됨 -->
-                  <!-- <img class="yt-poster" src="https://img.youtube.com/vi/0-sD8Q2Tb6o/hqdefault.jpg" alt="Humanoid Imitation Demo poster"> -->
-                  <img class="yt-poster" src="images/demo_task_poster.png" alt="Humanoid Imitation Demo poster">
-                  <button class="yt-play" type="button" aria-label="Play">▶</button>
-                </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://www.youtube.com/watch?v=0-sD8Q2Tb6o" target="_blank" rel="noreferrer">
-                  <span class="papertitle">[Humanoid] Imitation Learning Demo</span>
-                </a>
-                <br>
-                <strong>Euichan Heo</strong>, CAMEL
-                <br>
-                <em>Demonstration</em>, 2025
-                <p></p>
-                <p>
-                  This demonstration is about
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+        <!-- Demonstration -->
+        <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+          <tr><td><h2>Demonstration</h2></td></tr>
+        </tbody></table>
 
-        </td>
-      </tr>
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+          <tr>
+            <td style="padding:16px;width:20%;vertical-align:middle">
+              <div class="gif-wrap">
+                <img src="images/PiPER_final.gif" alt="PiPER Demonstration GIF">
+              </div>
+            </td>
+            <td style="padding:8px;width:80%;vertical-align:middle">
+              <span class="papertitle">[PiPER] Dual-Arm Manipulation Demonstration</span>
+              <br>
+              <strong>Euichan Heo</strong>, CAMEL
+              <br>
+              <em>Demonstration</em>, 2025
+              <p></p>
+              <p>
+                Real-time dual-arm imitation learning policy (PiPER) performing coordinated manipulation tasks.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+      </td></tr>
     </tbody></table>
-
-    <!-- 클릭 시 iframe 생성 & 자동재생(무음/루프) 시작 -->
-    <script>
-      function buildYT(srcId, opts) {
-        const { autoplay=true, loop=true, start=0, end=0 } = (opts || {});
-        const p = new URLSearchParams({
-          autoplay: autoplay ? "1" : "0",
-          mute: "1",
-          controls: "0",
-          modestbranding: "1",
-          rel: "0",
-          playsinline: "1",
-          loop: loop ? "1" : "0",
-          playlist: loop ? srcId : "",
-          start: start || "",
-          end: end || ""
-        });
-        return `https://www.youtube-nocookie.com/embed/${srcId}?${p.toString()}`;
-      }
-
-      document.addEventListener('click', (e) => {
-        const box = e.target.closest('.yt-click');
-        if (!box) return;
-        const id = box.getAttribute('data-ytid');
-        const ifr = document.createElement('iframe');
-        ifr.src = buildYT(id, { autoplay: true, loop: true });
-        ifr.title = 'YouTube video';
-        ifr.allow = 'autoplay; encrypted-media; picture-in-picture';
-        ifr.referrerPolicy = 'strict-origin-when-cross-origin';
-        ifr.loading = 'lazy';
-        box.replaceChildren(ifr);
-      });
-    </script>
   </body>
 </html>
