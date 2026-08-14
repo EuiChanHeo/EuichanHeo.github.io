@@ -158,4 +158,17 @@ ninja.data = [{
       },
     },];
 
-</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> <script>
+      // Replace the default cmd+k/ctrl+k shortcut with ctrl+f (cmd+f on Mac).
+      customElements.whenDefined('ninja-keys').then(function () {
+        var nk = document.querySelector('ninja-keys');
+        if (!nk) return;
+        if (typeof nk._unregisterInternalHotkeys === 'function') {
+          nk._unregisterInternalHotkeys();
+        }
+        nk.openHotkey = 'ctrl+f,cmd+f';
+        if (typeof nk._registerInternalHotkeys === 'function') {
+          nk._registerInternalHotkeys();
+        }
+      });
+    </script> </body> </html>
