@@ -1,148 +1,237 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <title>Euichan Heo</title>
+  <meta name="author" content="Euichan Heo">
+  <meta name="description" content="Euichan Heo — Robotics researcher exploring imitation learning, optimization, and intelligent robotic manipulation.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon_ec_dark.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
 
-    <title>Euichan Heo</title>
+  <nav class="nav">
+    <a class="nav__brand" href="#hero">EH</a>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#beyond">Beyond</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <meta name="author" content="Euichan Heo">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon_ec_dark.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- 00 · SPACE -->
+  <section id="hero" class="hero">
+    <canvas id="starfield"></canvas>
+    <div class="hero__inner">
+      <div class="hero__eyebrow">Euichan Heo</div>
+      <h1>Exploring intelligence<br>in the physical world.</h1>
+      <p>Robotics researcher working on imitation learning, optimization, and intelligent robotic manipulation.</p>
+    </div>
+    <div class="hero__scroll">
+      Scroll to explore
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16m0 0l-6-6m6 6l6-6"/></svg>
+    </div>
+  </section>
 
-    <style>
-      .gif-wrap {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        border-radius: 4px;
-      }
-      .gif-wrap img {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-        display: block;
-      }
-    </style>
-  </head>
+  <!-- 01 · ABOUT -->
+  <section id="about">
+    <div class="section-head reveal">
+      <span class="eyebrow">01 / About</span>
+      <h2>Who I am</h2>
+    </div>
+    <p class="about__lede reveal">
+      Robotics researcher interested in imitation learning, optimization, and intelligent robotic manipulation.
+    </p>
+    <p class="about__meta reveal">
+      M.S. Candidate, <a href="https://pnu-camel.oopy.io/" target="_blank" rel="noopener">CAMEL Lab</a>
+      (Computer And Machine Engaged Lab) · Pusan National University, Busan, South Korea
+    </p>
+  </section>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-      <tr><td style="padding:0;">
+  <!-- 02 · MY JOURNEY -->
+  <section id="journey">
+    <div class="section-head reveal">
+      <span class="eyebrow">02 / My Journey</span>
+      <h2>The path so far</h2>
+      <p>Education, research, and projects along the way.</p>
+    </div>
 
-        <!-- Header -->
-        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-          <tr>
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p class="name" style="text-align: center;">Euichan Heo</p>
-              <p>
-                I'm a master's student in 
-                <a href="https://pnu-camel.oopy.io/">CAMEL</a>
-                (<strong>C</strong>omputer <strong>A</strong>nd <strong>M</strong>achine <strong>E</strong>ngaged <strong>L</strong>ab.)
-                at <a href="https://ee.pusan.ac.kr/ee/index.do">Pusan National University</a> (Busan, South Korea).
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;/&nbsp;
-                <a href="https://velog.io/@hec1013/posts">Velog</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;/&nbsp;
-                <a href="https://github.com/EuiChanHeo">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:37%;max-width:37%">
-              <a href="images/EuichanHeo.jpg">
-                <img style="width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/EuichanHeo.jpg">
-              </a>
-            </td>
-          </tr>
-        </tbody></table>
+    <div class="timeline">
+      <div class="timeline__track"></div>
+      <div class="timeline__progress" id="timelineProgress"></div>
 
-        <!-- Research -->
-        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-          <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                I'm interested in robotics, <span class="highlight">imitation learning</span>, and generative AI.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2024.02</div>
+        <h3>B.S. in Electrical Engineering</h3>
+        <p>Pusan National University</p>
+      </div>
 
-        <!-- Publication -->
-        <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;"><tbody>
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src='images/Harness4.png' width="100%" alt="">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890333">
-                <span class="papertitle">Development of Strain Gauge-Based and FSR Sensor-Based Harness System for Interaction between Quadruped Robot and the Blind</span>
-              </a>
-              <br>
-              Jiyoon Kim, Dongju Kim, Dongyoung Lee, <strong>Euichan Heo</strong>
-              <br>
-              <em>IEIE Conference</em>, 2024
-              <p></p>
-              <p>
-                Implementation of harness system using strain gauge-based and FSR (Force Sensitive Resister) sensor-based handles for interaction between quadruped robot and the blind.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2024</div>
+        <h3>Guide-dog robot project</h3>
+        <p>Mobility intelligence technology for a guide robot for the visually impaired — designed a strain-gauge and FSR-sensor-based harness system.</p>
+      </div>
 
-        <!-- Demonstration -->
-        <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-          <tr><td><h2>Demonstration</h2></td></tr>
-        </tbody></table>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2024</div>
+        <h3>Publication — IEIE Conference</h3>
+        <p>Development of Strain Gauge-Based and FSR Sensor-Based Harness System for Interaction between Quadruped Robot and the Blind.</p>
+      </div>
 
-        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <div class="gif-wrap">
-                <img src="images/PiPER_final.gif" alt="PiPER Demonstration GIF">
-              </div>
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://www.youtube.com/watch?v=0-sD8Q2Tb6o">
-                <span class="papertitle">[Humanoid] Imitation Learning Demo</span>
-              </a>
-              <br>
-              <strong>Euichan Heo</strong>, 2025
-              <br>
-              <!-- <em>Demonstration</em>, 2025 -->
-              <p></p>
-              <p>
-                This demonstration is for Humanoid project in 2025.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2024 — 2026.08 (expected)</div>
+        <h3>M.S. Candidate, CAMEL Lab</h3>
+        <p>Pusan National University</p>
+      </div>
 
-        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <div class="gif-wrap">
-                <img src="images/PiPER_rubber.gif" alt="PiPER Demonstration GIF">
-              </div>
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://www.youtube.com/watch?v=0-sD8Q2Tb6o">
-                <span class="papertitle">[Humanoid] Imitation Learning Demo</span>
-              </a>
-              <br>
-              <strong>Euichan Heo</strong>, 2025
-              <br>
-              <!-- <em>Demonstration</em>, 2025 -->
-              <p></p>
-              <p>
-                This demonstration is for automation test in 2025.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2024 — 2026</div>
+        <h3>Autonomous humanoid manufacturing project</h3>
+        <p>Development of autonomous process operation technology for core manufacturing industries — imitation-learning-based control models (Visuomotor Policy, VLA).</p>
+      </div>
 
-      </td></tr>
-    </tbody></table>
-  </body>
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2025 — 2026</div>
+        <h3>Humanoid demonstration project — Project Lead</h3>
+        <p>RB-Y1-based demonstration support for the medical and aviation industries — controller design and imitation-learning-based control model development.</p>
+      </div>
+
+      <div class="timeline__item reveal">
+        <span class="timeline__dot"></span>
+        <div class="timeline__date">2026</div>
+        <h3>Humanoid Challenge 2026 — Adviser</h3>
+        <p>VLA & SLAM adviser.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 · RESEARCH -->
+  <section id="research">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 / Research</span>
+      <h2>Selected research</h2>
+    </div>
+
+    <div class="research-list">
+      <div class="paper-card reveal">
+        <div class="paper-card__media"><img src="images/Harness4.png" alt="Harness system" loading="lazy"></div>
+        <div>
+          <span class="badge">IEIE Conference · 2024</span>
+          <h3>Development of Strain Gauge-Based and FSR Sensor-Based Harness System for Interaction between Quadruped Robot and the Blind</h3>
+          <div class="authors">Jiyoon Kim, Dongju Kim, Dongyoung Lee, <strong>Euichan Heo</strong></div>
+          <p class="desc">A strain-gauge and FSR-sensor-based harness for interaction between a quadruped guide robot and a visually impaired handler.</p>
+          <div class="links"><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890333" target="_blank" rel="noopener">Paper</a></div>
+        </div>
+      </div>
+
+      <div class="paper-card reveal">
+        <div class="paper-card__media"><svg class="project-card__placeholder" viewBox="0 0 200 120" fill="none"><line x1="60" y1="60" x2="140" y2="60" stroke="var(--border)" stroke-width="2"/><circle cx="60" cy="60" r="10" stroke="var(--cyan)" stroke-width="2"/><circle cx="140" cy="60" r="10" stroke="var(--violet)" stroke-width="2"/></svg></div>
+        <div>
+          <span class="badge">Ongoing Research</span>
+          <h3>Res-IL: Residual QP-based Imitation Learning for Cooperative Bimanual Manipulation</h3>
+          <p class="desc">Imitation learning for cooperative bimanual manipulation combining a residual policy with QP-based control.</p>
+        </div>
+      </div>
+
+      <div class="paper-card reveal">
+        <div class="paper-card__media"><svg class="project-card__placeholder" viewBox="0 0 200 120" fill="none"><line x1="60" y1="60" x2="140" y2="60" stroke="var(--border)" stroke-width="2"/><circle cx="60" cy="60" r="10" stroke="var(--cyan)" stroke-width="2"/><circle cx="140" cy="60" r="10" stroke="var(--violet)" stroke-width="2"/></svg></div>
+        <div>
+          <span class="badge">Ongoing Research</span>
+          <h3>OB-IL: Optimization-Based Imitation Learning for Stable Action Generation</h3>
+          <p class="desc">Optimization-based imitation learning aimed at stable, reliable action generation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 · PROJECTS -->
+  <section id="projects">
+    <div class="section-head reveal">
+      <span class="eyebrow">04 / Projects</span>
+      <h2>Builds</h2>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card reveal">
+        <div class="project-card__media"><img src="images/Harness4.png" alt="Guide-dog robot harness" loading="lazy"></div>
+        <div class="project-card__body">
+          <span class="project-card__tag">2024</span>
+          <h3>Guide-Dog Robot</h3>
+          <p>Mobility intelligence tech for a guide robot for the visually impaired; designed the strain-gauge-based harness system.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card__media project-card__media--split">
+          <video src="images/PiPER_final.mp4" muted loop playsinline preload="metadata" data-hover-video></video>
+          <video src="images/PiPER_rubber.mp4" muted loop playsinline preload="metadata" data-hover-video></video>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__tag">2024 — 2026</span>
+          <h3>Autonomous Humanoid Manufacturing</h3>
+          <p>Autonomous process operation tech for humanoid robots in core manufacturing; imitation-learning control models (Visuomotor Policy, VLA).</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card__media"><svg class="project-card__placeholder" viewBox="0 0 200 120" fill="none"><line x1="60" y1="60" x2="140" y2="60" stroke="var(--border)" stroke-width="2"/><circle cx="60" cy="60" r="10" stroke="var(--cyan)" stroke-width="2"/><circle cx="140" cy="60" r="10" stroke="var(--violet)" stroke-width="2"/></svg></div>
+        <div class="project-card__body">
+          <span class="project-card__tag">2025 — 2026</span>
+          <h3>Humanoid Demonstration — Medical &amp; Aviation</h3>
+          <p>RB-Y1-based demonstration support for medical and aviation industries; controller design and imitation-learning-based control models.</p>
+          <span class="role">Project Lead</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card__media"><svg class="project-card__placeholder" viewBox="0 0 200 120" fill="none"><line x1="60" y1="60" x2="140" y2="60" stroke="var(--border)" stroke-width="2"/><circle cx="60" cy="60" r="10" stroke="var(--cyan)" stroke-width="2"/><circle cx="140" cy="60" r="10" stroke="var(--violet)" stroke-width="2"/></svg></div>
+        <div class="project-card__body">
+          <span class="project-card__tag">2026</span>
+          <h3>Humanoid Challenge 2026</h3>
+          <p>Advising on VLA (vision-language-action) and SLAM for the competition team.</p>
+          <span class="role">VLA &amp; SLAM Adviser</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 · BEYOND RESEARCH -->
+  <section id="beyond">
+    <div class="section-head reveal">
+      <span class="eyebrow">05 / Beyond Research</span>
+      <h2>Life outside the lab</h2>
+    </div>
+    <div class="beyond-grid">
+      <div class="beyond-card reveal">Travel</div>
+      <div class="beyond-card reveal">Photo</div>
+      <div class="beyond-card reveal">Life</div>
+    </div>
+  </section>
+
+  <!-- 06 · CONTACT -->
+  <section id="contact" class="contact">
+    <h2 class="reveal">Let's explore what's next.</h2>
+    <div class="contact__links reveal">
+      <a href="mailto:hec1013@gmail.com">Email</a>
+      <a href="https://github.com/EuiChanHeo" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://velog.io/@hec1013/posts" target="_blank" rel="noopener">Velog</a>
+      <a href="https://www.instagram.com/gooodinuf/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </section>
+
+  <footer>Euichan Heo · Concept v1.0 · 2026</footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
