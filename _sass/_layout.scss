@@ -44,6 +44,11 @@ body.sticky-bottom-footer {
     aspect-ratio: 1 / 1;
     object-fit: cover;
   }
+
+  .more-info {
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
