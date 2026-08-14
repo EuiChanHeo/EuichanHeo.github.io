@@ -8,26 +8,32 @@
   function resize() {
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
-    const count = Math.floor((canvas.width * canvas.height) / 9000);
+    const count = Math.floor((canvas.width * canvas.height) / 8000);
     stars = Array.from({ length: count }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
       r: Math.random() * 1.3 + 0.3,
-      a: Math.random() * 0.6 + 0.3,
       depth: Math.random() * 0.6 + 0.2,
+      vx: (Math.random() - 0.5) * 0.05,
+      vy: (Math.random() - 0.5) * 0.05 - 0.03,
+      phase: Math.random() * Math.PI * 2,
+      twinkleSpeed: Math.random() * 0.015 + 0.005,
     }));
   }
 
-  function draw() {
+  function draw(t) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     const dx = (mouse.x - canvas.width / 2) / canvas.width;
     const dy = (mouse.y - canvas.height / 2) / canvas.height;
     for (const s of stars) {
+      s.x = (s.x + s.vx + canvas.width) % canvas.width;
+      s.y = (s.y + s.vy + canvas.height) % canvas.height;
+      const a = 0.35 + 0.45 * (0.5 + 0.5 * Math.sin(t * s.twinkleSpeed + s.phase));
       const ox = s.x + dx * 12 * s.depth;
       const oy = s.y + dy * 12 * s.depth;
       ctx.beginPath();
       ctx.arc(ox, oy, s.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(246,247,251,${s.a})`;
+      ctx.fillStyle = `rgba(246,247,251,${a})`;
       ctx.fill();
     }
     requestAnimationFrame(draw);
@@ -36,7 +42,7 @@
   window.addEventListener('resize', resize);
   window.addEventListener('mousemove', (e) => { mouse.x = e.clientX; mouse.y = e.clientY; });
   resize();
-  draw();
+  draw(0);
 })();
 
 // Scroll reveal
