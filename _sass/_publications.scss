@@ -7,6 +7,12 @@
 .publications {
   margin-top: 2rem;
 
+  abbr.badge {
+    font-size: 0.6rem;
+    white-space: normal;
+    line-height: 1.2;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;

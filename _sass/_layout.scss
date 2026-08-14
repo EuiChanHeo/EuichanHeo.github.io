@@ -35,14 +35,14 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  // Pulls the floated photo up so its top roughly lines up with the
+  // subtitle line in the post-header above, instead of the bio text.
+  margin-top: -3.25rem;
+
   img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-  }
-
-  .more-info {
-    text-align: center;
   }
 }
 
