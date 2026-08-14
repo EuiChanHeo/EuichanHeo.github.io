@@ -87,7 +87,8 @@ ul.task-list input[type="checkbox"] {
     font-family: monospace;
 
     p {
-      display: inline-block;
+      display: block;
+      white-space: nowrap;
       margin: 0;
     }
   }
