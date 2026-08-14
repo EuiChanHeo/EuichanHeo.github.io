@@ -1,0 +1,52 @@
+/*******************************************************************************
+ * Site-local pastel color override of al_folio_core's _sass/_variables.scss.
+ * Same variable names/structure — only the hex values changed.
+ ******************************************************************************/
+
+@use "sass:color";
+
+// Colors (pastel palette)
+$red-color: #f2a6a6 !default;
+$red-color-dark: #d98c8c !default;
+$orange-color: #f6c89f !default;
+$blue-color: #afcbeb !default;
+$blue-color-dark: #7fa8d9 !default;
+$cyan-color: #9fd8cb !default;
+$light-cyan-color: color.adjust($cyan-color, $lightness: 15%);
+$green-color: #b8e2b0 !default;
+$green-color-lime: #d9e8a0 !default;
+$green-color-dark: #8fc98a !default;
+$green-color-light: #e8f7e4 !default;
+$green-color-bright: #9fe0c7 !default;
+$purple-color: #c9bbe8 !default;
+$light-purple-color: color.adjust($purple-color, $lightness: 15%);
+$pink-color: #f3c6d3 !default;
+$pink-color-light: #fbe6ec !default;
+$yellow-color: #f6e7a8 !default;
+
+$grey-color: #9b9b9f !default;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark: #2a2a30;
+$grey-900: #24242b;
+
+$white-color: #fffbf7 !default;
+$black-color: #2e2b33 !default;
+
+// Theme colors
+
+$code-bg-color-light: rgba($purple-color, 0.08);
+$code-bg-color-dark: #2b2833 !default;
+
+// Font awesome location
+$fa-font-path: "../webfonts";
+
+// Back To Top button config
+$back-to-top-z-index: 10;
+$back-to-top-bottom: 30px;
+$back-to-top-right: 30px;
+$back-to-top-diameter: 40px;
+$back-to-top-height: $back-to-top-diameter;
+$back-to-top-width: $back-to-top-diameter;
+
+// Max width default
+$max-content-width: 930px !default;
