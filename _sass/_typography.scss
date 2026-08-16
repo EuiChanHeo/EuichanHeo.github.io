@@ -59,6 +59,7 @@ table:not(.table) {
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-weight: bold;
 
   &:hover {
     color: var(--global-theme-color);
