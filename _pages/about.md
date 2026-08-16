@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Candidate, <a href="https://pnu-camel.oopy.io/" target="_blank">CAMEL Lab</a>, <a href="https://ee.pusan.ac.kr/ee/index.do" target="_blank">Pusan National University</a> · Busan, Republic of Korea
+subtitle: M.S. Candidate, <a href="https://pnu-camel.oopy.io/" target="_blank">CAMEL</a>, <a href="https://ee.pusan.ac.kr/ee/index.do" target="_blank">Pusan National University</a> · Busan, Republic of Korea
 
 profile:
   align: right
