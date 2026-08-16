@@ -201,3 +201,12 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+// Res-IL entry: badge and image keep their normal stacked position/order
+// in the thumbnail column (untouched, no overlap) - instead push the
+// description column down by the badge's own rendered height
+// (16.32px box + 0.5rem/8px margin-bottom = 24.32px) so its top lines
+// up with the image's top instead of the badge's.
+#heo2026resil {
+  margin-top: 24.32px;
+}
