@@ -201,22 +201,3 @@
 .citation-number {
   color: var(--global-theme-color);
 }
-
-// Res-IL entry: stack the figure above the description, both centered,
-// instead of the default narrow thumbnail-left/text-right row. The
-// badge itself is unaffected (already centers its own label text).
-.publications .row:has(#heo2026resil) {
-  flex-direction: column;
-  align-items: center;
-
-  > .col.abbr,
-  > #heo2026resil {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: 480px;
-  }
-
-  #heo2026resil {
-    text-align: center;
-  }
-}
