@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: project
 permalink: /projects/
 description: Robotics research and applied projects.
 nav: true
