@@ -22,10 +22,9 @@ latest_posts:
 I'm a robotics researcher at [CAMEL](https://pnu-camel.oopy.io/) (Computer And Machine Engaged Laboratory) in Busan, Republic of Korea. At CAMEL I've worked on bimanual manipulation, imitation learning, and constrained policy learning — from visuomotor policies and VLA models to QP-based control. See [MY JOURNEY](/cv/) for the full path, or [PROJECT](/projects/) for what I've built.
 
 <p style="text-align:center">
-  <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;/&nbsp;
-  <a href="/assets/pdf/cv.pdf">CV</a> &nbsp;/&nbsp;
-  <a href="/assets/pdf/bio.pdf">Bio</a> &nbsp;/&nbsp;
-  <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
-  <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;/&nbsp;
+  <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;&middot;&nbsp;
+  <a href="/assets/pdf/cv.pdf">CV</a> &nbsp;&middot;&nbsp;
+  <a href="https://scholar.google.com/citations?user=szqp7YcAAAAJ&hl=ko">Scholar</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/EuiChanHeo">Github</a>
 </p>
