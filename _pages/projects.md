@@ -1,8 +1,8 @@
 ---
 layout: page
 title: project
+headline: PROJECT
 permalink: /projects/
-description: Robotics research and applied projects.
 nav: true
 nav_order: 3
 display_categories: [work]
