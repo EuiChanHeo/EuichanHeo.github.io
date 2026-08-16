@@ -201,16 +201,3 @@
 .citation-number {
   color: var(--global-theme-color);
 }
-
-// Res-IL entry: the badge is the first item in the thumbnail column,
-// so its top - not the image's - lines up with the description text.
-// Reorder visually (no overlap, image unchanged) so the image renders
-// first and the badge sits below it.
-.publications .row:has(#heo2026resil) > .col.abbr {
-  display: flex;
-  flex-direction: column;
-
-  figure {
-    order: -1;
-  }
-}
