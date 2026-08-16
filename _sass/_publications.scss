@@ -201,18 +201,3 @@
 .citation-number {
   color: var(--global-theme-color);
 }
-
-// Res-IL entry: the badge normally sits above the image, pushing the
-// image's top below the text column's top. Overlay the badge on top
-// of the image instead (like a ribbon) so the image itself - not the
-// badge - is what lines up with the top of the description text.
-.publications .row:has(#heo2026resil) > .col.abbr {
-  position: relative;
-
-  abbr.badge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-}
