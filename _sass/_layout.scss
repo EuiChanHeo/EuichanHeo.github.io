@@ -33,12 +33,32 @@ body.sticky-bottom-footer {
   max-width: v.$max-content-width;
 }
 
+// About page: text column + photo, vertically centered as a row
+.about-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .about-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .about-row .clearfix {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .about-row .profile {
+    flex: 0 0 auto;
+  }
+}
+
 // Profile
 .profile {
-  // Pulls the floated photo up so its top roughly lines up with the
-  // subtitle line in the post-header above, instead of the bio text.
-  margin-top: -3.25rem;
-
   img {
     width: 100%;
     aspect-ratio: 1 / 1;
