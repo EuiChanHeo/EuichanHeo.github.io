@@ -202,11 +202,10 @@
   color: var(--global-theme-color);
 }
 
-// Res-IL entry: badge and image keep their normal stacked position/order
-// in the thumbnail column (untouched, no overlap) - instead push the
-// description column down by the badge's own rendered height
-// (16.32px box + 0.5rem/8px margin-bottom = 24.32px) so its top lines
-// up with the image's top instead of the badge's.
-#heo2026resil {
+// Same badge-height offset for any other selected-paper entry with a
+// preview image, so its description column top lines up with the
+// image's top instead of the badge's (badge/image left untouched).
+#heo2026resil,
+#heo2024harness {
   margin-top: 24.32px;
 }
