@@ -21,7 +21,7 @@ latest_posts:
 
 I'm a robotics researcher at [CAMEL](https://pnu-camel.oopy.io/) (Computer And Machine Engaged Laboratory) in Busan, Republic of Korea. At CAMEL I've worked on bimanual manipulation, imitation learning, and constrained policy learning — from visuomotor policies and VLA models to QP-based control. See [MY JOURNEY](/cv/) for the full path, or [PROJECTS](/projects/) for what I've built.
 
-<p>
+<p style="text-align:center">
   <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;/&nbsp;
   <a href="/assets/pdf/cv.pdf">CV</a> &nbsp;/&nbsp;
   <a href="/assets/pdf/bio.pdf">Bio</a> &nbsp;/&nbsp;
