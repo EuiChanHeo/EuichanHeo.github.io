@@ -2,6 +2,7 @@
 layout: page
 title: project
 headline: Projects
+description: This page is reserved for self-directed projects that complement the publication list: full builds, experiments, prototypes, and research-adjacent systems work.
 permalink: /projects/
 nav: true
 nav_order: 3
