@@ -2,6 +2,7 @@
 layout: page
 title: Humanoid Demonstration — Medical & Aviation
 description: RB-Y1-based demonstration support · Project Lead
+img: assets/img/placeholder_blank.png
 importance: 3
 category: work
 related_publications: false

@@ -2,6 +2,7 @@
 layout: page
 title: Humanoid Challenge 2026
 description: VLA & SLAM Adviser
+img: assets/img/placeholder_blank.png
 importance: 4
 category: work
 related_publications: false
