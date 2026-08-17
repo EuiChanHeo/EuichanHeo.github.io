@@ -38,6 +38,8 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
 
   .card-img {
     width: 100%;
