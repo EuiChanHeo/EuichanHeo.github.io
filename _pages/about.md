@@ -19,7 +19,7 @@ latest_posts:
   enabled: false
 ---
 
-I'm a robotics researcher at [CAMEL](https://pnu-camel.oopy.io/) (<strong>C</strong>omputer <strong>A</strong>nd <strong>M</strong>achine <strong>E</strong>ngaged <strong>L</strong>aboratory) in Busan, Republic of Korea. At CAMEL I've worked on bimanual manipulation, imitation learning, and constrained policy learning — from visuomotor policies and VLA models to QP-based control. See [MY JOURNEY](/cv/) for the full path, or [PROJECT](/projects/) for what I've built.
+I'm a robotics & AI researcher at [CAMEL](https://pnu-camel.oopy.io/) (<strong>C</strong>omputer <strong>A</strong>nd <strong>M</strong>achine <strong>E</strong>ngaged <strong>L</strong>aboratory) in Busan, Republic of Korea. At CAMEL I've worked on bimanual manipulation, imitation learning, and constrained policy learning — from visuomotor policies and VLA models to QP-based control. See [MY JOURNEY](/cv/) for the full path, or [PROJECT](/projects/) for what I've built.
 
 <p style="text-align:center">
   <a href="mailto:hec1013@gmail.com">Email</a> &nbsp;&middot;&nbsp;
