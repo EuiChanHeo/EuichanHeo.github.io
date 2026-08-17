@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project
-headline: PROJECT
+headline: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
