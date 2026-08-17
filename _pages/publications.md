@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: publication
 headline: Publications
+description: Thesis, conference papers, and other research outputs.
 nav: true
 nav_order: 2
 ---
