@@ -40,14 +40,14 @@
       "position": "Project Lead",
       "startDate": "2025",
       "endDate": "2026",
-      "summary": "RB-Y1-based demonstration support for the medical and aviation industries; controller design and imitation-learning-based control model development."
+      "summary": "RB-Y1-based demonstration support for the medical and aviation industries; controller design and IL-based control model development."
     },
     {
       "name": "Autonomous Humanoid Manufacturing",
       "position": "Researcher",
       "startDate": "2024",
       "endDate": "2026",
-      "summary": "Development of autonomous process operation technology for core manufacturing industries; imitation-learning-based control models (Visuomotor Policy, VLA)."
+      "summary": "Development of autonomous process operation technology for core manufacturing industries; IL-based control models (Visuomotor Policy, VLA)."
     },
     {
       "name": "Guide-Dog Robot — Mobility Intelligence for the Visually Impaired",
