@@ -27,5 +27,6 @@ I'm a robotics & AI researcher at [CAMEL](https://pnu-camel.oopy.io/) (<strong>C
   <a href="/assets/pdf/cv.pdf">CV</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/EuiChanHeo">Github</a> &nbsp;&middot;&nbsp;
   <a href="https://www.instagram.com/gooodinuf/">Instagram</a> &nbsp;&middot;&nbsp;
-  <a href="https://www.linkedin.com/in/euichan-heo-1141a8310/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/euichan-heo-1141a8310/">LinkedIn</a> &nbsp;&middot;&nbsp;
+  <a href="https://velog.io/@hec1013/posts">Velog</a>
 </p>
