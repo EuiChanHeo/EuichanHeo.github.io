@@ -2,7 +2,8 @@
 layout: page
 title: Autonomous Humanoid Manufacturing
 description: Imitation-learning control for humanoid robots in core manufacturing
-img: assets/img/piper_manufacturing.jpg
+img: assets/img/piper_manufacturing.gif
+avoid_scaling: true
 importance: 2
 category: 2025
 related_publications: false
