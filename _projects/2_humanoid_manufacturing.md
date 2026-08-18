@@ -12,10 +12,10 @@ Development of autonomous process operation technology for humanoid robots in co
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <video src="{{ 'assets/video/piper_final.mp4' | relative_url }}" autoplay muted loop playsinline class="img-fluid rounded z-depth-1"></video>
+    <video src="{{ 'assets/video/piper_final.mp4' | relative_url }}" autoplay muted loop playsinline class="img-fluid rounded z-depth-1" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"></video>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <video src="{{ 'assets/video/piper_rubber.mp4' | relative_url }}" autoplay muted loop playsinline class="img-fluid rounded z-depth-1"></video>
+    <video src="{{ 'assets/video/piper_rubber.mp4' | relative_url }}" autoplay muted loop playsinline class="img-fluid rounded z-depth-1" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"></video>
   </div>
 </div>
 <div class="caption">
