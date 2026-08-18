@@ -8,4 +8,4 @@ category: 2026
 related_publications: false
 ---
 
-Advising the competition team for Humanoid Challenge 2026 on vision-language-action (VLA) models and SLAM.
+Advising the competition team CAMEL for Humanoid Challenge 2026 on vision-language-action (VLA) models and SLAM.
