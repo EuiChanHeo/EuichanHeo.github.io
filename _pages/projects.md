@@ -6,7 +6,7 @@ description: "This page is reserved for self-directed projects that complement t
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [2026, 2025, 2024]
 horizontal: true
 ---
 
